@@ -1,0 +1,133 @@
+<!--
+Group Members: Cody Costa, Anthony Jin, Michael Osorio, Joseph Scala, Christian Santos
+Pledge: I PLEDGE MY HONOR THAT I HAVE ABIDED BY THE STEVENS HONOR SYSTEM-->
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#EBF8FE, #277094);
+  background-attachment: fixed;
+}
+
+body nav {
+  text-align: center;
+  background: linear-gradient(#00C4FF,#075E78);
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+}
+
+body nav ul {
+  list-style: none;
+  width: 100%;
+}
+
+body nav ul li{
+  display: inline;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body nav ul li a {
+    color: #F2FDFF;
+    text-decoration: none;
+}
+
+body nav ul li a:hover {
+    color: white;
+}
+
+#logo {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Georgia', 'serif';
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  color: #00C4FF;
+}
+aside{
+  border-radius: 10px;
+  background-color: white;;
+  width: calc(40% - 4px);
+  float: right
+}
+
+aside p {
+  padding: 10px;
+}
+
+section{
+  width: 60%;
+  float: left;
+}
+
+#aboutus {
+  background-color: white;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+#aboutus h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#aboutus p {
+  padding: 5px;
+  text-align: justify;
+}
+
+#Celebrity_Roster {
+  border-radius: 20px;
+  background-color: white;
+  max-width: 100%; 
+}
+
+#Celebrity_Roster h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#Celebrity_Roster p {
+  padding: 5px;
+  text-align: justify;
+}
+
+#Celebrity_Roster img {
+  
+}
+
+footer {
+  text-align: center;
+  background-color: #02455A;
+  position: relative;;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+footer p {
+  color: white;
+}
+
+img {
+  width: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 40%;
+  max-height: 400px;
+}
+
+aside h2 {
+  text-align: center;
+  text-decoration: underline;
+}

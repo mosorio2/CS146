@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>iDateU Signing Up</title>
+    <link href="iDateU_form.css" rel="stylesheet"
+  </head>
+  <body>
+    <h1 id="logo">iDateU inc</h1>
+    <nav>
+      <ul>
+        <li><a href="iDateU_splashpage.html">Home</a></li>
+        <li><a href="iDateU.html">About Us</a></li>
+        <li><a href="iDateU_form.html">Signing Up</a></li>
+        <li><a href="">Others</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <form name="form1" id="form1" method="get">
+        <fieldset>
+          <legend>Signing Up</legend>
+          <label for="firstname" class="labelitem">First name:</label>
+          <input type="text" name="firstname" id="firstname" size="24" maxlength="32" placeholder = "Enter First Name" required pattern="[a-zA-Z\'\-s\ ]+" title = "First name cannot be blank"/>
+          <br/>
+          <label for="lastname" class="labelitem">Last name:</label>
+          <input type="text" name="lastname" id="lastname" size="24" maxLength="32" placeholder = "Enter Last Name"/>
+          <br/>
+          <label for="email" class="labelitem">Email:</label>
+          <input type="email" name="email" id="email" size="24" maxlength="32" placeholder="Enter Email Here" required/>
+          <br/>
+          <span class="labelitem">
+            <label for="address1">Address:</label>
+          </span>
+          <span class="inputitem">
+            <input type="text" name="address1" id="address1" size="24" maxlength="32" placeholder="Enter Address Here"/>
+            <br/>
+            <input type="text" name="address2" id="address2" size="24" maxlength="32" placeholder="Enter Address Here"/>
+          </span><br/>
+          <label for="city" class="labelitem">City:</label>
+          <input type="text" name="city" id="city" size="24" maxlength="32" placeholder="Enter City Here"/>
+          <br/>
+          <label for="state" class="labelitem">State:</label>
+          <select name="state" id="state">
+            <option value="undecided">&nbsp;</option>
+            <optgroup label="Mid-Atlantic">
+              <option value="Delaware">Delaware</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value = "Washington D.C.">Washington D.C.</option>
+              <option value = "Maryland">Maryland</option>
+              <option value = "New York">New York</option>
+              <option value = " Pennsylvania">Pennsylvania</option>
+              <option value = "Virginia">Virginia</option>
+              <option value = "West Virginia">West Virginia</option>
+            </optgroup>
+            <optgroup label="New England">
+              <option value="Connecticut">Connecticut</option>
+              <option value = "Maine">Maine</option>
+              <option value ="Massachusetts">Massachusetts</option>
+              <option value = "New Hampshire">New Hampshire</option>
+              <option value = "Rhode Island">Rhode Island</option>
+              <option value="Vermont">Vermont</option>
+            </optgroup>
+            <optgroup label = "Pacific">
+              <option value ="Alaska">Alaska</option>
+              <option value ="California">California</option>
+              <option value =  "Hawaii">Hawaii</option>
+              <option value = "Oregon">Oregon</option>
+              <option value = "Washington">Washington</option>
+            </optgroup>
+            <optgroup label = "Mountain">
+              <option value = "Idaho">Idaho</option>
+              <option value = "Montana">Montana</option>
+              <option value = "Wyoming">Wyoming</option>
+              <option value = "Arizona">Arizona</option>
+              <option value = "Colorado">Colorado</option>
+              <option value = "Nevada">Nevada</option>
+              <option value = "New Mexico">New Mexico</option>
+              <option value = "Utah">Utah</option>
+            </optgroup>
+            <optgroup label = "Midwest">
+              <option value = "Illinois">Illinois</option>
+              <option value = "Indiana">Indiana</option>
+              <option value = "Iowa">Iowa</option>
+              <option value = "Kansas">Kansas</option>
+              <option value = "Michigan">Michigan</option>
+              <option value = "Minnesota">Minnesota</option>
+              <option value = "Missouri">Missouri</option>
+              <option value = "Nebraska">Nebraska</option>
+              <option value = "North Dakota">North Dakota</option>
+              <option value = "Ohio">Ohio</option>
+              <option value = "South Dakota">South Dakota</option>
+              <option value = "Wisconsin">Wisconsin</option>
+            </optgroup>
+            <optgroup label = "South">
+              <option value = "Florida">Florida</option>
+              <option value = "Georgia">Georgia</option>
+              <option value = "North Carolina">North Carolina</option>
+              <option value = "South Carolina">South Carolina</option>
+              <option value = "Alabama">Alabama</option>
+              <option value = "Kentucky">Kentucky</option>
+              <option value = "Mississippi">Mississippi</option>
+              <option value = "Tennessee">Tennessee</option>
+              <option value = "Arkansas">Arkansas</option>
+              <option value = "Louisiana">Louisiana</option>
+              <option value = "Oklahoma">Oklahoma</option>
+              <option value = "Texas">Texas</option>
+            </optgroup>
+          </select>
+          <br/>
+          <label for="zipcode" class="labelitem">Zip Code:</label>
+          <input type="text" name="zipcode" id="zipcode" size="24" maxlength="10" placeholder="Enter Zipcode" required pattern = "\d{5}(\-\d{4})?" title = "xxxxx or xxxxx-xxxx"/>
+          <br/>
+          <label for="password" class="labelitem">Password:</label>
+          <input type="password" name="password" id="password" size="24" maxlength="32" placeholder="Type Your Password Here" pattern=".{8,}" required/>
+          <br/>
+          <label for="confirmPassword" class="labelitem">Confirm Password:</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" size="24" maxlength="32" placeholder="Re-Type Your Password Here" pattern=".{8,}"/>
+          <br/>
+          <p class="info">Your Password is too short</p>
+        </fieldset>
+        <fieldset>
+          <legend>Survey</legend>
+          <label for="Q1" class="labelitem">Do you like Blondes?</label>
+          <input type="text" name="Q1" id="Q1" size="24" maxlength="32" /><br/>
+          <span class="labelitem">Year</span>
+        <span class="inputitem">
+          <input type="radio" name="grade_year" id="freshman" value="Freshman" checked="checked" />
+          <label for="freshman">Freshman</label><br/>
+          <input type="radio" name="grade_year" id="sophomore" value="Sophomore" />
+          <label for="sophomore">Sophomore</label><br/>
+          <input type="radio" name="grade_year" id="junior" value="Junior" />
+          <label for="junior">Junior</label><br/>
+          <input type="radio" name="grade_year" id="senior" value="Senior" />
+          <label for="senior">Senior</label>
+        </span><br/> <br/>
+          
+        </fieldset>
+        <section id="reset_submit">
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit"/>
+        </section>
+      </form>
+    </div>
+    <footer><p>&copy; iDateU inc</p></footer>
+  </body>
+</html>

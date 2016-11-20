@@ -1,0 +1,102 @@
+<!--
+Group Members: Cody Costa, Anthony Jin, Michael Osorio, Joseph Scala, Christian Santos
+Pledge: I PLEDGE MY HONOR THAT I HAVE ABIDED BY THE STEVENS HONOR SYSTEM-->
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Georgia', 'serif';
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  color: #00C4FF;
+}
+
+#wrapper {
+    background-color: #FEFAE9;
+    border-color: #012632;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 700px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200%;
+    margin-bottom: 20px;
+}
+    
+
+body {
+  background: linear-gradient(#EBF8FE, #277094);
+  background-attachment: fixed;
+}
+
+body nav {
+  text-align: center;
+  background: linear-gradient(#00C4FF,#075E78);
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+}
+
+body nav ul {
+  list-style: none;
+  width: 100%;
+}
+
+body nav ul li{
+  display: inline;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body nav ul li a {
+    color: #F2FDFF;
+    text-decoration: none;
+}
+
+body nav ul li a:hover {
+    color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;;
+  width: 50%;
+}
+
+p {
+  font-family: fantasy;
+  font-size: 3em;
+  text-align: center;
+  color: blue;
+}
+
+footer {
+  text-align: center;
+  background-color: #02455A;
+  position: relative;;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+footer p {
+  color: white;
+  font-size: 1em;
+}

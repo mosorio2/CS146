@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Playing with JavaScript</title>
+    <meta charset="utf-8" />
+    <script src="play.js"></script>
+  </head>
+  <body onload="">
+    <form id="mainform" name="mainform" method="get" >
+      <input type="text" size="24" mexlength="32" id="name" name="name" />
+      <input type="button" value="Submit" onclick="log_to_page('Hello, ' + document.forms[0].name.value + '!');" />
+    </form>
+      <!--
+    <script>var val = prompt("How old are you?", 18);
+      while (!is_numeric(val)) {
+          val = prompt("How old are you?", 18);
+      }
+      
+      document.write(who_is_older(parseInt(val)));
+        var words = ["apple", "zebra", "html", "javacript"];
+          document.write("<br />");
+          selection_sort(words);
+          document.write(words);
+    </script>
+    <p>End of body</p>
+-->
+  </body>
+</html>
